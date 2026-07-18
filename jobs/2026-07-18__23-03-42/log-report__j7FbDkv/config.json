@@ -1,0 +1,13 @@
+{
+    "task": {
+        "path": "/Users/chinmaykumar/tb-tasks/log-report",
+        "source": "tb-tasks"
+    },
+    "trial_name": "log-report__j7FbDkv",
+    "trials_dir": "jobs/2026-07-18__23-03-42",
+    "environment": {
+        "type": "docker",
+        "force_build": true
+    },
+    "job_id": "d392135b-5258-464c-8c0e-1b13e4442629"
+}

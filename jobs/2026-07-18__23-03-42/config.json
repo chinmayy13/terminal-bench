@@ -1,0 +1,12 @@
+{
+    "job_name": "2026-07-18__23-03-42",
+    "environment": {
+        "type": "docker",
+        "force_build": true
+    },
+    "datasets": [
+        {
+            "path": "/Users/chinmaykumar/tb-tasks"
+        }
+    ]
+}

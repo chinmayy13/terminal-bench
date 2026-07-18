@@ -1,7 +1,6 @@
 import json
 import re
 from collections import Counter
-
 paths, ips, total = Counter(), set(), 0
 with open("/app/access.log") as f:
     for line in f:
@@ -13,7 +12,6 @@ with open("/app/access.log") as f:
         m = re.search(r'"(?:GET|POST|PUT|DELETE|HEAD|PATCH) (\S+) ', line)
         if m:
             paths[m.group(1)] += 1
-
 with open("/app/report.json", "w") as out:
     json.dump(
         {
